@@ -27,3 +27,9 @@ function App() {
 }
 
 export default App;
+
+// Axios Notes
+
+// Make requests to any URL you want by calling: axios.get('url')
+// Ex. axios.get('http://localhost:8000/api/articles/learn-react'); - makes a request to our server
+// Then to get the response - const response = await axios.get('http://localhost:8000/api/articles/learn-react');
